@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import MyFirstLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("value from framework: \(Operations.objclass.add(a: 20, b: 65))")
     }
 
     override func didReceiveMemoryWarning() {

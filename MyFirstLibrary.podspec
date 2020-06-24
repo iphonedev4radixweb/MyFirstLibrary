@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyFirstLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyFirstLibrary.'
+  s.summary          = 'MyFirstLibrary perform mathematical operations like addition and subtraction.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  'This is my first library in the cocoapods and it is my experiement about creating cocoapod libraries.'
+  DESC
 
-  s.homepage         = 'https://github.com/rxIndrajeet/MyFirstLibrary'
+  s.homepage         = 'https://github.com/iphonedev4radixweb/MyFirstLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rxIndrajeet' => 'iphonedev4.radixweb@gmail.com' }
-  s.source           = { :git => 'https://github.com/rxIndrajeet/MyFirstLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iphonedev4radixweb/MyFirstLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MyFirstLibrary/Classes/**/*'
+  s.source_files = 'MyFirstLibrary/Sources/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'MyFirstLibrary' => ['MyFirstLibrary/Assets/*.png']
