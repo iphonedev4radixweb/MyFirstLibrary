@@ -1,0 +1,22 @@
+{
+  "name": "MyFirstLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MyFirstLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rxIndrajeet/MyFirstLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rxIndrajeet": "iphonedev4.radixweb@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rxIndrajeet/MyFirstLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyFirstLibrary/Classes/**/*"
+}
