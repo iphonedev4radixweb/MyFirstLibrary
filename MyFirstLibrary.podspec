@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyFirstLibrary'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'MyFirstLibrary perform mathematical operations like addition and subtraction.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'MyFirstLibrary/Classes/**/*'
+  s.source_files = 'MyFirstLibrary/Classes/*.{swift,h,m}'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {
