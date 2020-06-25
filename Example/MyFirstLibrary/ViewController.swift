@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("value from framework: \(Operations.objclass.add(a: 20, b: 65))")
+        print("value from framework: \(Operations.objclass.multiply(a: 10, b: 65))")
     }
 
     override func didReceiveMemoryWarning() {
