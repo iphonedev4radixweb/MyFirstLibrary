@@ -112,7 +112,7 @@
 		1BD9EBE3F54ADA335FED5F47E38E0210 /* MyFirstLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				F1B6F07D24A3690F001A2CEE /* Sources */,
+				F1B6F07D24A3690F001A2CEE /* Classes */,
 				BC00FF08FC4A20BDA8C463A76D25C6EC /* Pod */,
 				909AC2E6B637692C244DD4BC4E0E295E /* Support Files */,
 			);
@@ -223,12 +223,12 @@
 			path = "Target Support Files/Pods-MyFirstLibrary_Example";
 			sourceTree = "<group>";
 		};
-		F1B6F07D24A3690F001A2CEE /* Sources */ = {
+		F1B6F07D24A3690F001A2CEE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				F1B6F07E24A36CB6001A2CEE /* Operations.swift */,
 			);
-			path = Sources;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
